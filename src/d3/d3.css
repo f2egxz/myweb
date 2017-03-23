@@ -1,0 +1,27 @@
+.Dcontainer {
+    width:100%;
+    height: 100%;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+
+.Dcontainer button {
+    flex: none;
+}
+
+.Dform {
+    width: 200px;
+    flex: none;
+    display: flex;
+    flex-wrap:wrap;
+}
+
+.Dform>p {
+    flex: none;
+    width: 100px;
+}
+
+.Dform input {
+    width: 50px;
+}

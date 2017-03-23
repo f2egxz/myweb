@@ -1,0 +1,127 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-intro {
+  font-size: 16px;
+  color: #666;
+  transition: all 0.3s;
+}
+
+.App-intro span {
+  display: inline-block;
+  padding: 10px;
+  cursor: pointer;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.container {
+  display: flex;
+  height: 500px;
+  padding: 0 50px ;
+}
+
+.sidbar {
+  width: 100px;
+  flex: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items:center;
+}
+
+.sidbarItem {
+  flex: auto;
+  width:100%;
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  border: 1px solid #d6d6d6;
+  cursor: pointer;
+}
+
+.showArea {
+  flex: auto;
+  border: 1px solid #000;
+}
+
+.Dactive {
+  background-color: pink;
+  border: 1px solid pink;
+}
+
+.active {
+  font-size: 22px;
+  font-weight: 700;
+  color: #000000;
+}
+/*-----------------------*/
+.GLcontainer {
+  border: 1px solid #000;
+  height: 500px;
+  margin: 0 50px;
+}
+
+.GLlist {
+  border-left: 2px solid #CCCCCC;
+  display: inline-block;
+}
+
+.GLlistItem {
+  position: relative;
+  border-bottom: 1px dashed #CCCCCC;
+  transition: all 0.3s;
+}
+
+.GLlistItem > a {
+  display: inline-block;
+  padding: 20px 50px 20px 50px ;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+}
+
+.GLlistItem::before {
+  content: '';
+  position: absolute;
+  left: -4px;
+  top:49%;
+  border-radius: 100%;
+  width: 6px;
+  height: 6px;
+  background-color: #CCCCCC;
+  transition: all 0.3s;
+}
+
+.GLlistItem:hover {
+  border-bottom: 1px dashed #000000;
+}
+
+.GLlistItem:hover::before {
+  background-color: #000000;
+}
+
+
+/*----------------------------*/
+@media screen and (max-width:880px){
+  .container {
+    padding: 0;
+  }
+
+}
