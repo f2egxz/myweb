@@ -7,7 +7,7 @@ class Games extends Component{
             <div className="GLcontainer">
                 <p>
                     *为了有最好的用户体验，请使用最新版的
-                    <a href="http://www.google.cn/intl/zh-CN/chrome/browser/desktop/index.html">谷歌浏览器</a>
+                    <a href="http://www.google.cn/intl/zh-CN/chrome/browser/desktop/index.html" target="_blank" className="downChrome">谷歌浏览器</a>
                     打开*
                 </p>
                 <ul className="GLlist">

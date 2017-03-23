@@ -20,10 +20,9 @@
   transition: all 0.3s;
 }
 
-.App-intro span {
+.App-intro a {
   display: inline-block;
-  padding: 10px;
-  cursor: pointer;
+  padding: 20px;
 }
 
 @keyframes App-logo-spin {
@@ -115,6 +114,10 @@
 
 .GLlistItem:hover::before {
   background-color: #000000;
+}
+
+.downChrome {
+  color: #0098ff;
 }
 
 
