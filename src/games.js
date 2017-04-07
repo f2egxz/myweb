@@ -11,10 +11,12 @@ class Games extends Component{
                     打开*
                 </p>
                 <ul className="GLlist">
-                    <li className="GLlistItem"><a href="##"> 一个多米诺骨牌的动画 </a> </li>
-                    <li className="GLlistItem"><a href="##"> 抽木棍，看你能抽走多少而不倒呢 </a></li>
-                    <li className="GLlistItem"><a href="##"> 这是一个泄愤的好地方 </a> </li>
-                    <li className="GLlistItem"><a href="##"> 孤独么，那就来这里转转 </a> </li>
+                    <li className="GLlistItem"><a target="_blank" href="https://f2egxz.github.io/threeDEMO/Aphysijs/index01.html"> 一个多米诺骨牌的动画 </a> </li>
+                    <li className="GLlistItem"><a target="_blank" href="https://f2egxz.github.io/threeDEMO/Aphysijs/index02.html"> 抽木棍，看你能抽走多少而不倒呢 </a></li>
+                    <li className="GLlistItem"><a target="_blank" href="https://f2egxz.github.io/threeDEMO/Aphysijs/index03.html"> 这是一个泄愤的好地方 </a> </li>
+                    <li className="GLlistItem"><a target="_blank" href="https://f2egxz.github.io/threeDEMO/Aanimation/index01.html"> 一个动画 </a> </li>
+                    <li className="GLlistItem"><a target="_blank" href="https://f2egxz.github.io/threeDEMO/Abackground/index.html"> 孤独么，那就来这里转转 </a> </li>
+                    <li className="GLlistItem"><a target="_blank" href="https://github.com/f2egxz"> 更多个人DEMO... </a> </li>
                     <li style={{height:30}}> </li>
                 </ul>
             </div>
